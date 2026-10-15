@@ -1,0 +1,1621 @@
+2005-12-14 19:06  zeev
+
+	* CVSROOT/: checkoutlist, commitinfo, config, cvswrappers,
+	  editinfo, loginfo, modules, notify, rcsinfo, taginfo, verifymsg:
+	  initial checkin
+
+2005-12-14 23:54  zeev
+
+	* src/: globaldocs/MainFrame.form, globaldocs/MainFrame.java,
+	  tests/a.java: Daily commit
+
+2005-12-15 10:20  zeev
+
+	* src/globaldocs/MainFrame.java: The classes are ordered
+	  alphabeticaly now
+
+2005-12-15 16:51  zeev
+
+	* src/globaldocs/: MainFrame.form, MainFrame.java: It loads the
+	  class description pages now
+
+2005-12-15 20:07  zeev
+
+	* src/globaldocs/MainFrame.java: The hyperlinks in the document
+	  window are active now
+
+2005-12-18 00:27  zeev
+
+	* src/globaldocs/MainFrame.java: initial assembles support
+
+2005-12-18 10:14  zeev
+
+	* src/globaldocs/MainFrame.java: Assembles support improvement
+
+2005-12-18 13:00  zeev
+
+	* src/globaldocs/MainFrame.java: Initial package description
+	  support
+
+2005-12-18 17:58  zeev
+
+	* src/globaldocs/MainFrame.java: Completed support of the assembles
+
+2005-12-19 15:21  zeev
+
+	* src/globaldocs/MainFrame.java: package handling bugfix
+
+2005-12-19 15:48  zeev
+
+	* src/globaldocs/MainFrame.java: assembles handling improvement
+
+2005-12-19 18:05  zeev
+
+	* src/globaldocs/MainFrame.java: the class icon was implemented
+
+2005-12-19 18:06  zeev
+
+	* src/globaldocs/res/class.gif: see prev message
+
+2005-12-20 13:20  zeev
+
+	* src/globaldocs/MainFrame.java: Icon handling improvement
+
+2005-12-20 13:21  zeev
+
+	* src/globaldocs/res/: cup.gif, p_closed.gif, p_open.gif,
+	  pks_closed.gif, pks_open.gif: some icons were added
+
+2005-12-20 16:52  zeev
+
+	* src/globaldocs/: MainFrame.java, res/pks_closed.gif,
+	  res/pks_open.gif: the look improvement
+
+2005-12-20 17:42  zeev
+
+	* src/globaldocs/MainFrame.java: j2ee reference was added
+
+2005-12-20 19:16  zeev
+
+	* src/globaldocs/MainFrame.java: 1. refactoring 2. j2ee
+	  docementation link was added
+
+2005-12-21 16:17  zeev
+
+	* src/globaldocs/MainFrame.java: A bugfix
+
+2005-12-21 18:37  zeev
+
+	* src/globaldocs/: MainFrame.form, MainFrame.java: copy of the
+	  selected text ability was added
+
+2005-12-21 18:48  zeev
+
+	* src/globaldocs/: MainFrame.form, MainFrame.java: the title change
+	  was implemented
+
+2005-12-21 23:30  zeev
+
+	* src/globaldocs/: MainFrame.form, MainFrame.java: initial
+	  implementation of the node sync was added
+
+2005-12-22 23:01  zeev
+
+	* src/globaldocs/: MainFrame.form, MainFrame.java: title handling
+	  improvement
+
+2005-12-23 18:13  zeev
+
+	* src/globaldocs/MainFrame.java: improvements
+
+2005-12-23 19:03  zeev
+
+	* src/globaldocs/MainFrame.java: Interface icon was added
+
+2005-12-23 19:40  zeev
+
+	* src/globaldocs/MainFrame.java: the interface recognition is
+	  completed
+
+2005-12-24 18:42  zeev
+
+	* src/globaldocs/MainFrame.java: some bufixes and improvements
+
+2005-12-24 20:17  zeev
+
+	* src/globaldocs/: MainFrame.java, res/about.html,
+	  res/interface.gif: Some buggfixes.  "about.html" was added
+
+2005-12-24 23:14  zeev
+
+	* src/globaldocs/: MainFrame.form, MainFrame.java: prev and next
+	  arrow buttons were added
+
+2005-12-24 23:25  zeev
+
+	* src/globaldocs/res/: helpviewer_back.png, helpviewer_forward.png:
+	  some icons were added
+
+2005-12-24 23:59  zeev
+
+	* src/globaldocs/: MainFrame.form, MainFrame.java: the history
+	  development
+
+2005-12-25 12:47  zeev
+
+	* src/globaldocs/MainFrame.java: "Back" and "Forward" arrows work
+
+2005-12-25 15:07  zeev
+
+	* src/globaldocs/res/: about.html, license.html: The license info
+	  was added
+
+2005-12-27 11:28  zeev
+
+	* src/globaldocs/MainFrame.java: The license text has been added to
+	  the MainFrame.java file
+
+2005-12-27 14:07  zeev
+
+	* src/globaldocs/MainFrame.java: 1. The program can work in offline
+	  now 2. JNLP API has been added to the list
+
+2005-12-28 19:01  zeev
+
+	* src/globaldocs/: MainFrame.java, res/jpackage.png,
+	  res/sphera.png, res/up.png: 1. URL InputStream open timeout
+	  increased to 2000ms.	2. URL -> Node sync scroll.  3. "up"
+	  "jpackage" "sphera" icons were added.
+
+2005-12-29 16:50  zeev
+
+	* src/globaldocs/: MainFrame.form, MainFrame.java: 1. "Up" button
+	  works 2. "Large Model" is enabled in the tree
+
+2005-12-30 23:09  zeev
+
+	* src/globaldocs/: MainFrame.form, MainFrame.java, res/globe.gif,
+	  res/sphera.png: 1. "Stop" button works.  2. "Stop" button icon is
+	  a spining globe now.
+
+2005-12-31 23:32  zeev
+
+	* src/globaldocs/: MainFrame.form, MainFrame.java, res/home.png:
+	  the home button works
+
+2006-01-01 12:59  zeev
+
+	* src/globaldocs/: MainFrame.form, MainFrame.java,
+	  res/globeDisabled.gif: code cleanup
+
+2006-01-01 15:06  zeev
+
+	* src/globaldocs/: MainFrame.form, MainFrame.java: selected node
+	  mouse click works
+
+2006-01-01 16:10  zeev
+
+	* src/globaldocs/: MainFrame.java, res/about.html: The
+	  advertisement logo was added
+
+2006-01-01 16:11  zeev
+
+	* src/globaldocs/res/adv.jpg: See prev comment
+
+2006-01-01 18:15  zeev
+
+	* src/globaldocs/: MainFrame.java, res/about.html, res/adv.jpg:
+	  "Home" tooltip improvement
+
+2006-01-02 11:01  zeev
+
+	* src/globaldocs/MainFrame.java: 1. C.fullName is clean after the
+	  tree build.  2. URL rewrite was added.
+
+2006-01-02 12:20  zeev
+
+	* src/globaldocs/MainFrame.java: url rewriter improvement
+
+2006-01-02 12:31  zeev
+
+	* src/globaldocs/MainFrame.java: URL rewrite improvement
+
+2006-01-02 15:30  zeev
+
+	* src/globaldocs/MainFrame.java: JPackage home page parser is added
+	  and works
+
+2006-01-02 16:04  zeev
+
+	* src/globaldocs/: MainFrame.form, MainFrame.java: jpackage button
+	  works
+
+2006-01-02 17:34  zeev
+
+	* src/globaldocs/: MainFrame.java, res/about.html: "about" menu
+	  item is added
+
+2006-01-02 17:52  zeev
+
+	* src/globaldocs/MainFrame.java: a bugfix
+
+2006-01-02 21:32  zeev
+
+	* src/globaldocs/MainFrame.java: emptyUrl navigation improvement
+
+2006-01-02 22:05  zeev
+
+	* src/globaldocs/MainFrame.java: Navigation improvement
+
+2006-01-03 19:38  zeev
+
+	* src/globaldocs/MainFrame.java: Accelerators were added
+
+2006-01-03 21:23  zeev
+
+	* src/globaldocs/MainFrame.java: local search development
+
+2006-01-03 23:48  zeev
+
+	* src/globaldocs/MainFrame.java: search of page works
+
+2006-01-04 14:12  zeev
+
+	* src/globaldocs/: MainFrame.form, MainFrame.java: 1. Search
+	  improvement.	2. Scroll on the jpackage jump
+
+2006-01-04 14:17  zeev
+
+	* build.xml, manifest.mf, nbproject/build-impl.xml,
+	  nbproject/genfiles.properties, nbproject/project.properties,
+	  nbproject/project.xml, src/globaldocs/res/about.html: x
+
+2006-01-04 15:28  zeev
+
+	* changelog.txt, src/globaldocs/res/about.html,
+	  src/globaldocs/res/adv.jpg: changelog.txt was added
+
+2006-01-04 21:26  zeev
+
+	* src/globaldocs/MainFrame.java: bugfix  -- plaintext document
+	  handling
+
+2006-01-05 00:23  zeev
+
+	* src/globaldocs/MainFrame.java: URL navigation bugfix
+
+2006-01-05 23:23  zeev
+
+	* changelog.txt, src/globaldocs/MainFrame.java,
+	  src/globaldocs/res/about.html: 1.3.1 changelog update
+
+2006-01-06 18:49  zeev
+
+	* src/globaldocs/: MainFrame.form, MainFrame.java: the scrolling
+	  positions are kept in the history now
+
+2006-01-07 22:34  zeev
+
+	* src/globaldocs/MainFrame.java: interface node recognition
+	  improvement
+
+2006-01-08 16:37  zeev
+
+	* src/globaldocs/MainFrame.java: 1. Code cleanup 2. "Search again"
+	  works.  3. "Quit" menu item was added
+
+2006-01-08 17:00  zeev
+
+	* src/globaldocs/MainFrame.java: fast navigation menu was added
+
+2006-01-08 19:38  zeev
+
+	* src/globaldocs/MainFrame.java: the parser is a global  static
+	  object now
+
+2006-01-08 21:51  zeev
+
+	* src/globaldocs/: MainFrame.java, res/about.html: the fast
+	  navigation improvement
+
+2006-01-08 23:05  zeev
+
+	* src/globaldocs/: MainFrame.form, MainFrame.java, res/empty.html,
+	  res/netbeans.gif, res/unvisible_arrow.png: pressed button icons
+	  were added
+
+2006-01-09 13:19  zeev
+
+	* src/globaldocs/: MainFrame.form, MainFrame.java: look improvement
+
+2006-01-09 13:59  zeev
+
+	* src/globaldocs/MainFrame.java: Home.hame() was added
+
+2006-01-09 23:08  zeev
+
+	* src/globaldocs/MainFrame.java: initial version of the fast jump
+	  to the project home page works
+
+2006-01-10 15:48  zeev
+
+	* changelog.txt, src/globaldocs/res/about.html: 1.4
+
+2006-01-10 21:09  zeev
+
+	* src/globaldocs/MainFrame.java: navigation menu improvement
+
+2006-01-11 22:56  zeev
+
+	* src/globaldocs/: MainFrame.java, res/config.xml: the external
+	  sources list was moved to the file "config.xml"
+
+2006-01-12 18:02  zeev
+
+	* src/: globaldocs/MainFrame.java, tests/a.java: the configuration
+	  file works
+
+2006-01-12 20:14  zeev
+
+	* changelog.txt, src/globaldocs/MainFrame.java,
+	  src/globaldocs/res/about.html, src/globaldocs/res/help.html:
+	  1.4.5
+
+2006-01-13 19:21  zeev
+
+	* src/globaldocs/MainFrame.java: yet one rule was added to the
+	  rewritter
+
+2006-01-13 20:26  zeev
+
+	* src/globaldocs/MainFrame.java: Copy URL to clipboard is
+	  implemented
+
+2006-01-14 15:56  zeev
+
+	* src/globaldocs/MainFrame.java: "open Page" in an external browser
+	  was added
+
+2006-01-14 17:31  zeev
+
+	* src/globaldocs/MainFrame.java: internet explorer works
+
+2006-01-18 18:11  zeev
+
+	* src/globaldocs/MainFrame.java: initial version of the splash
+	  screen
+
+2006-01-18 20:18  zeev
+
+	* src/globaldocs/MainFrame.java: SplashScreen class
+
+2006-01-18 20:56  zeev
+
+	* src/globaldocs/MainFrame.java: text antialiasing was enabled
+
+2006-01-18 22:48  zeev
+
+	* src/globaldocs/MainFrame.java: The SplashScreen margin message is
+	  set
+
+2006-01-18 23:02  zeev
+
+	* src/globaldocs/: MainFrame.java, res/9kb8.gif: Spinning globe was
+	  added to the splash screen
+
+2006-01-22 14:20  zeev
+
+	* src/globaldocs/MainFrame.java: first version of the SplashScreen
+	  notification works
+
+2006-01-22 14:52  zeev
+
+	* src/globaldocs/MainFrame.java: look improvement
+
+2006-01-22 20:02  zeev
+
+	* src/globaldocs/: MainFrame.java, res/about.html: 1.4.6
+
+2006-01-22 20:16  zeev
+
+	* changelog.txt: changelog
+
+2006-01-23 15:17  zeev
+
+	* changelog.txt, nbproject/project.properties,
+	  src/globaldocs/MainFrame.form, src/globaldocs/MainFrame.java: the
+	  tabs were added
+
+2006-01-23 17:35  zeev
+
+	* src/globaldocs/: MainFrame.form, MainFrame.java: preparing to the
+	  overall classes list implementation
+
+2006-01-23 19:30  zeev
+
+	* src/globaldocs/: MainFrame.form, MainFrame.java: the classes
+	  search development
+
+2006-01-23 20:57  zeev
+
+	* src/globaldocs/: MainFrame.form, MainFrame.java: list order
+
+2006-01-24 12:14  zeev
+
+	* src/globaldocs/MainFrame.java: classes list development
+
+2006-01-24 13:01  zeev
+
+	* src/globaldocs/MainFrame.java: Class List Renderer
+
+2006-01-24 14:19  zeev
+
+	* src/globaldocs/: MainFrame.form, MainFrame.java, res/about.html:
+	  the search filter tooltip is set
+
+2006-01-24 23:38  zeev
+
+	* src/globaldocs/: MainFrame.form, MainFrame.java, res/about.html:
+	  1. Classes List context menu 2. Framed start screen
+
+2006-01-25 12:24  zeev
+
+	* src/globaldocs/res/about_frame.html: about_frame
+
+2006-01-25 20:53  zeev
+
+	* src/globaldocs/MainFrame.java: The context menu works in the
+	  frames
+
+2006-01-26 14:16  zeev
+
+	* src/globaldocs/: MainFrame.form, MainFrame.java: the filter text
+	  field event processing was changed
+
+2006-01-26 15:14  zeev
+
+	* src/globaldocs/MainFrame.java: the filter event handlng
+	  improvement
+
+2006-01-29 23:29  zeev
+
+	* src/globaldocs/: MainFrame.form, MainFrame.java,
+	  SearchMaskJPanel.form, SearchMaskJPanel.java, res/blackcross.png:
+	  Search Panel
+
+2006-02-01 23:40  zeev
+
+	* src/globaldocs/SearchMaskJPanel.java: the search areas resize
+	  works
+
+2006-02-02 16:35  zeev
+
+	* get.php, src/globaldocs/SearchMaskJPanel.java,
+	  src/globaldocs/res/config.xml: First version that uses
+	  zeevbelkin.com site.
+
+2006-02-02 19:30  zeev
+
+	* src/globaldocs/: MainFrame.java, SearchMaskJPanel.form,
+	  SearchMaskJPanel.java, res/about.html, res/about_frame.html,
+	  res/config.xml: body font size
+
+2006-02-02 20:06  zeev
+
+	* src/globaldocs/: MainFrame.form, MainFrame.java, res/zoom_in.png,
+	  res/zoom_out.png: Zoom in, Zoom out
+
+2006-02-02 20:36  zeev
+
+	* src/globaldocs/MainFrame.java: resizing improvement
+
+2006-02-03 12:31  zeev
+
+	* home.gif, src/globaldocs/MainFrame.java: Docment Zooming has been
+	  rewritted
+
+2006-02-04 22:58  zeev
+
+	* 1.4/Ascertia_Root_CA_1.der, 1.4/MANIFEST.MF, 1.4/do.sh,
+	  1.4/globaldocs.jar, 1.4/globaldocs.jnlp, 1.4/index.html,
+	  1.4/myKeystore, 1.4/shot-large.jpg, 1.4/shot.jpg,
+	  1.4/version.xml, 1.4/zeevcer01.cer, 1.4/zeevsign.cer,
+	  1.4/zeevsign.crt, nbproject/.cvsignore,
+	  src/globaldocs/MainFrame.java, src/globaldocs/res/config.xml:
+	  Zooming were completely rewritten
+
+2006-02-05 00:06  zeev
+
+	* src/globaldocs/: MainFrame.java, res/about.html: Zoom menu
+
+2006-02-05 12:47  zeev
+
+	* .cvsignore, get.php: get.php uses cache
+
+2006-02-05 16:33  zeev
+
+	* src/globaldocs/: MainFrame.java, res/about.html, res/config.xml:
+	  "disable" configuration option works
+
+2006-02-05 17:22  zeev
+
+	* src/globaldocs/: MainFrame.form, MainFrame.java, res/reload.png:
+	  "Reload" button works
+
+2006-02-06 13:49  zeev
+
+	* src/globaldocs/: MainFrame.java, res/config.xml: docset
+	  replacement works
+
+2006-02-06 17:02  zeev
+
+	* src/globaldocs/: MainFrame.java, res/help.html: pre 1.5
+
+2006-02-06 17:04  zeev
+
+	* .nbintdb: [no log message]
+
+2006-02-07 20:08  zeev
+
+	* changelog.txt, src/globaldocs/MainFrame.java,
+	  src/globaldocs/SearchMaskJPanel.java,
+	  src/globaldocs/res/config.xml: docuemnt scaling on the new
+	  document download was moved to the subclassed editor kit.
+
+2006-02-07 20:37  zeev
+
+	* src/globaldocs/: MainFrame.form, MainFrame.java: editorkit
+	  setting code was fixed (affects on framesets)
+
+2006-02-10 00:50  zeev
+
+	* changelog.txt, nbproject/project.properties,
+	  nbproject/project.xml, src/globaldocs/DocsetListEditorPanel.form,
+	  src/globaldocs/DocsetListEditorPanel.java,
+	  src/globaldocs/MainFrame.form, src/globaldocs/MainFrame.java,
+	  src/globaldocs/res/about_frame.html,
+	  src/globaldocs/res/books.gif: GUI configurator development
+
+2006-02-11 01:17  zeev
+
+	* src/globaldocs/: DocsetListEditorPanel.form,
+	  DocsetListEditorPanel.java, MainFrame.java: GUI configuration
+	  development
+
+2006-02-11 23:08  zeev
+
+	* nbproject/build-impl.xml, nbproject/genfiles.properties,
+	  src/globaldocs/DocsetListEditorPanel.form,
+	  src/globaldocs/DocsetListEditorPanel.java,
+	  src/globaldocs/MainFrame.java: GUI configurator development
+
+2006-02-12 17:27  zeev
+
+	* src/globaldocs/: Home.java, MainFrame.java, Visitor.java:
+	  refactoring
+
+2006-02-12 18:57  zeev
+
+	* src/globaldocs/MainFrame.java: ability to disable a
+	  "/usr/share/javadoc" docset was added
+
+2006-02-13 01:32  zeev
+
+	* src/globaldocs/: DocsetListEditorPanel.form,
+	  DocsetListEditorPanel.java, MainFrame.java: GUI configurator
+	  development	-- initial on/off works
+
+2006-02-13 14:08  zeev
+
+	* src/globaldocs/MainFrame.java: 1. a bugfix -- the tree sync bug
+	  2. GUI configurator development
+
+2006-02-13 19:09  zeev
+
+	* src/globaldocs/: DocsetListEditorPanel.form,
+	  DocsetListEditorPanel.java, MainFrame.java: GUI configurator
+	  development -- backup/restore on cancel
+
+2006-02-13 23:18  zeev
+
+	* src/globaldocs/: DocsetListEditorPanel.java,
+	  res/win-explorer-opened-folder.gif, JDialog_AssemblyEditor.form,
+	  JDialog_AssemblyEditor.java: Assembly Editor Dialog
+
+2006-02-15 23:44  zeev
+
+	* .cvsignore, src/globaldocs/DocsetListEditorPanel.form,
+	  src/globaldocs/DocsetListEditorPanel.java,
+	  src/globaldocs/JDialog_AssemblyEditor.form,
+	  src/globaldocs/JDialog_AssemblyEditor.java: GUI configurator
+	  development
+
+2006-02-16 17:25  zeev
+
+	* src/globaldocs/: DocsetListEditorPanel.java,
+	  JDialog_AssemblyEditor.form, JDialog_AssemblyEditor.java,
+	  MainFrame.java: GUI configuration development
+
+2006-02-16 19:42  zeev
+
+	* src/globaldocs/MainFrame.java: Browser identification was added
+	  to the openStream
+
+2006-02-17 00:29  zeev
+
+	* src/: globaldocs/MainFrame.java, tests/a.java: Browser
+	  identification works in the browser (but not in the frames)
+
+2006-02-17 03:30  zeev
+
+	* nbproject/project.properties,
+	  src/globaldocs/DocsetListEditorPanel.form,
+	  src/globaldocs/DocsetListEditorPanel.java,
+	  src/globaldocs/JDialog_AssemblyEditor.form,
+	  src/globaldocs/JDialog_AssemblyEditor.java: layout change
+
+2006-02-17 20:12  zeev
+
+	* src/globaldocs/MainFrame.java: code cleanup
+
+2006-02-17 20:49  zeev
+
+	* src/globaldocs/MainFrame.java: URL was replaces to String in many
+	  places
+
+2006-02-17 21:30  zeev
+
+	* src/globaldocs/: DocsetListEditorPanel.form,
+	  DocsetListEditorPanel.java, JDialog_AssemblyEditor.form,
+	  JDialog_AssemblyEditor.java, MainFrame.java: Look Improvement
+
+2006-02-17 21:56  zeev
+
+	* src/globaldocs/MainFrame.java: bugfix
+
+2006-02-20 00:06  zeev
+
+	* src/globaldocs/: DocsetListEditorPanel.java, MainFrame.java: GUI
+	  configurator development
+
+2006-02-22 00:12  zeev
+
+	* src/globaldocs/: JDialog_AssemblyEditor.form,
+	  JDialog_AssemblyEditor.java: initial code to support jar/zip
+	  files
+
+2006-02-22 11:51  zeev
+
+	* src/globaldocs/MainFrame.java: a parsing bugfix
+
+2006-02-22 14:35  zeev
+
+	* src/globaldocs/: DocsetListEditorPanel.form,
+	  DocsetListEditorPanel.java, JDialog_AssemblyEditor.java: "add new
+	  docset" is implemented
+
+2006-02-22 21:08  zeev
+
+	* src/globaldocs/: DocsetListEditorPanel.java, MainFrame.java: "add
+	  new docset" is improvement
+
+2006-02-22 22:57  zeev
+
+	* src/globaldocs/: JDialog_AssemblyEditor.form,
+	  JDialog_AssemblyEditor.java: "add new docset"  -- help base
+	  browser works
+
+2006-02-23 13:46  zeev
+
+	* src/globaldocs/: DocsetListEditorPanel.form,
+	  DocsetListEditorPanel.java, MainFrame.java: It seems that the GUI
+	  configurator works
+
+2006-02-23 14:39  zeev
+
+	* src/globaldocs/: MainFrame.form, MainFrame.java: All componemnts
+	  of version 1.6, probably work
+
+2006-02-23 16:30  zeev
+
+	* src/globaldocs/: MainFrame.java, res/about_frame.html,
+	  res/zeev.html: 1. jar/zip support for the Konqueror 2. zeev.html
+	  page
+
+2006-02-24 16:59  zeev
+
+	* src/globaldocs/: DocsetListEditorPanel.form,
+	  DocsetListEditorPanel.java, JDialog_AssemblyEditor.java,
+	  MainFrame.java: Some fixes for the Windows environment
+
+2006-02-26 15:10  zeev
+
+	* src/: globaldocs/MainFrame.form, globaldocs/MainFrame.java,
+	  tests/a.java: Auto upgrade was implemented
+
+2006-02-26 19:16  zeev
+
+	* src/globaldocs/: MainFrame.java, res/fls.gif, res/zeev.html: My
+	  logo was added
+
+2006-02-26 20:45  zeev
+
+	* src/globaldocs/res/: config.xml, help.html: Some fixes
+
+2006-02-27 20:54  zeev
+
+	* changelog.txt, src/globaldocs/MainFrame.java,
+	  src/globaldocs/res/about_frame.html: a macroprocessor to
+	  substitute macros in the html-resources was added.
+
+2006-02-27 21:00  zeev
+
+	* changelog.txt, src/globaldocs/MacroParser.java,
+	  src/globaldocs/MacroProcessor.java,
+	  src/globaldocs/MainFrame.java: refactoring
+
+2006-03-01 23:52  zeev
+
+	* build.xml, nbproject/build-jaws-impl.xml,
+	  nbproject/genfiles.properties, nbproject/project.properties,
+	  src/globaldocs/MacroParser.java,
+	  src/globaldocs/MacroProcessor.java,
+	  src/globaldocs/MainFrame.java,
+	  src/globaldocs/PagePreprocessor.java,
+	  src/globaldocs/PagePreprocessorParser.java, web/globaldocs.jnlp,
+	  web/index.jsp, web/META-INF/context.xml, web/WEB-INF/web.xml,
+	  web/WEB-INF/lib/jardiff.jar, web/WEB-INF/lib/jnlp-servlet.jar,
+	  web/WEB-INF/lib/jnlp.jar, web/dist/globaldocs.jar: refactoring
+
+2006-03-02 22:14  zeev
+
+	* src/: globaldocs/MainFrame.form, globaldocs/MainFrame.java,
+	  globaldocs/Utils.java, tests/a.java: 1. md5 digister was added.
+	  2. each entry in the searchable classes list has  its own list of
+	  the projects
+
+2006-03-04 22:45  zeev
+
+	* src/globaldocs/MainFrame.java: it creates the cache files
+
+2006-03-05 12:35  zeev
+
+	* changelog.txt, src/globaldocs/DocsetListEditorPanel.form,
+	  src/globaldocs/DocsetListEditorPanel.java,
+	  src/globaldocs/MacroProcessor.java,
+	  src/globaldocs/MainFrame.java: Version 1.6.2
+
+2006-03-05 16:12  zeev
+
+	* src/globaldocs/: Home.java, MacroProcessor.java,
+	  PagePreprocessor.java, PagePreprocessorParser.java, Utils.java,
+	  Visitor.java: Comments with the licensee were added
+
+2006-03-05 22:41  zeev
+
+	* src/globaldocs/MainFrame.java: ability to open a link in the top
+	  frame was added
+
+2006-03-06 22:35  zeev
+
+	* src/globaldocs/MainFrame.java: Frame handling improvement
+
+2006-03-07 21:14  zeev
+
+	* src/globaldocs/MainFrame.java: Improved Frame handling works
+
+2006-03-08 17:36  zeev
+
+	* src/globaldocs/JDialog_AssemblyEditor.java: The program tries to
+	  resolve project id/version on the docset open (in the docset
+	  attributes editor)
+
+2006-03-08 18:36  zeev
+
+	* src/globaldocs/: MainFrame.form, MainFrame.java: the navigation
+	  combo box was added
+
+2006-03-08 19:01  zeev
+
+	* src/globaldocs/: MainFrame.form, MainFrame.java: the navigation
+	  combo box was added
+
+2006-03-08 20:31  zeev
+
+	* src/globaldocs/MainFrame.java: The URL combo-box completely works
+
+2006-03-08 21:05  zeev
+
+	* src/globaldocs/: MainFrame.form, MainFrame.java: MSN search works
+
+2006-03-08 22:12  zeev
+
+	* src/globaldocs/: MainFrame.form, MainFrame.java: look improvement
+
+2006-03-09 00:25  zeev
+
+	* changelog.txt, src/globaldocs/MainFrame.java: 1.6.99
+
+2006-03-09 19:19  zeev
+
+	* changelog.txt, src/globaldocs/MainFrame.form,
+	  src/globaldocs/MainFrame.java, src/globaldocs/Utils.java,
+	  src/globaldocs/res/spherax.gif: Version 1.6.99a
+
+2006-03-09 19:50  zeev
+
+	* src/globaldocs/MainFrame.java: Version 1.6.99a
+
+2006-03-09 22:06  zeev
+
+	* src/globaldocs/: MainFrame.form, MainFrame.java: public static
+	  void setUserAgentProperty()
+
+2006-03-11 23:21  zeev
+
+	* src/globaldocs/: MainFrame.form, MainFrame.java, res/plus.gif,
+	  res/spherax.gif: Capture button is active
+
+2006-03-11 23:28  zeev
+
+	* src/globaldocs/MainFrame.java: bugfix
+
+2006-03-12 23:55  zeev
+
+	* src/globaldocs/: DocsetListEditorPanel.java,
+	  JDialog_AssemblyEditor.java, MainFrame.form, MainFrame.java,
+	  Utils.java: Docset capture works
+
+2006-03-13 12:42  zeev
+
+	* src/globaldocs/: MainFrame.java, res/plus.gif,
+	  res/properties.properties: 1. Capture a new docset completely
+	  works.  2. "properties.properties" file was added
+
+2006-03-13 17:39  zeev
+
+	* changelog.txt, license.html, readmy.txt,
+	  src/globaldocs/DocsetListEditorPanel.java,
+	  src/globaldocs/JDialog_AssemblyEditor.java,
+	  src/globaldocs/MainFrame.java, src/globaldocs/Utils.java,
+	  src/globaldocs/res/help.html: Version 1.7
+
+2006-03-13 18:03  zeev
+
+	* readme.txt, readmy.txt: rename
+
+2006-03-16 22:43  zeev
+
+	* src/globaldocs/: MainFrame.form, MainFrame.java: focus management
+	  improvement
+
+2006-03-16 23:42  zeev
+
+	* src/: globaldocs/MainFrame.java, globaldocs/res/jpackage.ico,
+	  tests/a.java: package names in the tree with docset lists
+
+2006-03-17 06:49  zeev
+
+	* src/globaldocs/: MainFrame.form, MainFrame.java: focus management
+	  improvement
+
+2006-03-17 18:43  zeev
+
+	* src/globaldocs/: MainFrame.form, MainFrame.java: the "upgrade is
+	  available" lable improvement
+
+2006-03-17 23:51  zeev
+
+	* src/globaldocs/: MainFrame.form, MainFrame.java: focus management
+	  improvement
+
+2006-03-19 16:34  zeev
+
+	* src/globaldocs/: JDialog_Options.form, JDialog_Options.java:
+	  Options Dialog was Added
+
+2006-03-19 21:24  zeev
+
+	* src/globaldocs/: DocsetListEditorPanel.form,
+	  DocsetListEditorPanel.java, JDialog_AssemblyEditor.form,
+	  JDialog_AssemblyEditor.java, JDialog_Options.form,
+	  JDialog_Options.java, MainFrame.form, MainFrame.java, Utils.java:
+	  Look Improvement
+
+2006-03-20 15:07  zeev
+
+	* src/globaldocs/: JDialog_Options.form, JDialog_Options.java,
+	  MainFrame.java, Utils.java: options dilaog development
+
+2006-03-20 21:19  zeev
+
+	* src/globaldocs/: JDialog_Options.form, JDialog_Options.java,
+	  MainFrame.java: 1. options dilaog development 2. bugfix
+
+2006-03-20 22:28  zeev
+
+	* src/globaldocs/: JDialog_Options.java, MainFrame.java: proxy
+	  options w/o authentication works
+
+2006-03-21 12:46  zeev
+
+	* src/globaldocs/: JDialog_Options.java, MainFrame.java,
+	  TheAuthenticator.java: proxy port validation was added
+
+2006-03-21 13:15  zeev
+
+	* src/globaldocs/: JDialog_Options.java, Utils.java,
+	  res/properties.properties: the proxy validation works
+
+2006-03-21 21:08  zeev
+
+	* src/: globaldocs/TheAuthenticator.java, globaldocs/Utils.java,
+	  globaldocs/Wallet.java, tests/a.java: initial version of the
+	  wallet works
+
+2006-03-21 23:09  zeev
+
+	* src/: PasswordAuthenticationDialog.form,
+	  PasswordAuthenticationDialog.java,
+	  globaldocs/PasswordAuthenticationDialog.form,
+	  globaldocs/PasswordAuthenticationDialog.java: password
+	  authentication dialog template was added
+
+2006-03-22 14:14  zeev
+
+	* src/globaldocs/: PasswordAuthenticationDialog.form,
+	  PasswordAuthenticationDialog.java, TheAuthenticator.java: initial
+	  version of the proxy dialog works.
+
+2006-03-22 14:52  zeev
+
+	* src/globaldocs/: PasswordAuthenticationDialog.java,
+	  DocsetListEditorPanel.java, JDialog_AssemblyEditor.java: default
+	  buttons were set in all the dialogs
+
+2006-03-22 16:53  zeev
+
+	* src/globaldocs/: JDialog_Options.java, MainFrame.java,
+	  PasswordAuthenticationDialog.form,
+	  PasswordAuthenticationDialog.java, TheAuthenticator.java:
+	  password authentication works (w/o the wallet)
+
+2006-03-22 23:22  zeev
+
+	* src/globaldocs/: JDialog_AssemblyEditor.form,
+	  JDialog_AssemblyEditor.java, PasswordAuthenticationDialog.form,
+	  PasswordAuthenticationDialog.java, SetMasterPasswordDialog.form,
+	  SetMasterPasswordDialog.java, TheAuthenticator.java, Wallet.java:
+	  password store development
+
+2006-03-23 13:21  zeev
+
+	* src/globaldocs/: SetMasterPasswordDialog.form,
+	  SetMasterPasswordDialog.java, TheAuthenticator.java, Utils.java,
+	  Wallet.java: the wallet completely works
+
+2006-03-23 16:50  zeev
+
+	* src/globaldocs/: JDialog_Options.form, JDialog_Options.java,
+	  SetMasterPasswordDialog.java, Wallet.java: the wallet bugfixes
+
+2006-03-23 17:37  zeev
+
+	* src/globaldocs/res/help.html: help on the new  features was added
+
+2006-03-23 21:52  zeev
+
+	* src/globaldocs/: MainFrame.java, res/config.xml, res/help.html:
+	  mustang
+
+2006-03-23 22:33  zeev
+
+	* changelog.txt: 1.7.1
+
+2006-03-24 15:12  zeev
+
+	* src/globaldocs/: MainFrame.java, Utils.java, res/help.html:
+	  respawnIfCanAndNeed() was added
+
+2006-03-26 18:08  zeev
+
+	* nbproject/project.properties,
+	  src/globaldocs/DocsetEditor_Dialog.form,
+	  src/globaldocs/DocsetEditor_Dialog.java,
+	  src/globaldocs/DocsetListEditorPanel.java,
+	  src/globaldocs/JDialog_AssemblyEditor.form,
+	  src/globaldocs/JDialog_AssemblyEditor.java,
+	  src/globaldocs/JDialog_Options.form,
+	  src/globaldocs/JDialog_Options.java,
+	  src/globaldocs/MainFrame.java,
+	  src/globaldocs/Options_Dialog.form,
+	  src/globaldocs/Options_Dialog.java,
+	  src/globaldocs/SelectZippedDocset_Dialog.form,
+	  src/globaldocs/SelectZippedDocset_Dialog.java,
+	  src/globaldocs/SetMasterPasswordDialog.form,
+	  src/globaldocs/SetMasterPasswordDialog.java,
+	  src/globaldocs/SetMasterPassword_Dialog.form,
+	  src/globaldocs/SetMasterPassword_Dialog.java,
+	  src/globaldocs/TheAuthenticator.java, src/globaldocs/Utils.java,
+	  src/globaldocs/res/about_frame.html,
+	  src/globaldocs/res/properties.properties: several javadocs per
+	  zip/jar support
+
+2006-03-26 21:16  zeev
+
+	* src/globaldocs/: DocsetListEditorPanel.java, MainFrame.java:
+	  multiple j2se docset support
+
+2006-03-29 00:02  zeev
+
+	* src/globaldocs/DocsetListEditorPanel.form,
+	  src/globaldocs/DocsetListEditorPanel.java,
+	  src/globaldocs/MainFrame.java,
+	  src/globaldocs/PasswordAuthenticationDialog.java,
+	  src/globaldocs/SelectZippedDocset_Dialog.java,
+	  src/globaldocs/SetMasterPassword_Dialog.java,
+	  src/globaldocs/TheAuthenticator.java, src/globaldocs/Utils.java,
+	  src/globaldocs/Wallet.java, get.php,
+	  nbproject/project.properties, src/globaldocs/res/config.xml,
+	  src/globaldocs/res/help.html,
+	  src/globaldocs/res/properties.properties: Editing of the Jpackage
+	  docset's managed attribute was blocked
+
+2006-03-29 19:21  zeev
+
+	* sign.sh, src/globaldocs/DocsetListEditorPanel.java,
+	  src/globaldocs/MainFrame.java,
+	  src/globaldocs/res/about_frame.html: Docset List Editor Panel
+	  Improvement
+
+2006-03-29 21:22  zeev
+
+	* src/globaldocs/: MainFrame.java, Utils.java, res/help.html,
+	  res/properties.properties: the empty URL handling improvement
+
+2006-03-29 22:22  zeev
+
+	* changelog.txt, src/globaldocs/MainFrame.java,
+	  src/globaldocs/res/properties.properties: 1.8.0
+
+2006-03-29 22:47  zeev
+
+	* src/globaldocs/DocsetListEditorPanel.java: j2se 1.6.0 related
+	  bugfixes
+
+2006-03-30 09:42  zeev
+
+	* changelog.txt, src/globaldocs/DocsetListEditorPanel.java,
+	  src/globaldocs/MainFrame.java, src/globaldocs/Utils.java,
+	  src/globaldocs/res/properties.properties: a critical docset
+	  management  bug was fixed
+
+2006-04-02 00:33  zeev
+
+	* src/globaldocs/: MainFrame.java, res/properties.properties:
+	  "Frame" menu ooption was added
+
+2006-04-02 19:52  zeev
+
+	* src/globaldocs/MainFrame.java: first version of the members
+	  navigation works
+
+2006-04-02 21:40  zeev
+
+	* src/globaldocs/MainFrame.java: the members navigation works w/o
+	  rewrite
+
+2006-04-02 22:17  zeev
+
+	* src/globaldocs/MainFrame.java: the members navigation works with
+	  the rewrite
+
+2006-04-03 23:53  zeev
+
+	* src/globaldocs/MainFrame.java: members menu development
+
+2006-04-04 11:41  zeev
+
+	* src/globaldocs/MainFrame.java: member menu nests were implemented
+
+2006-04-05 19:09  zeev
+
+	* src/globaldocs/MainFrame.java: clustered members menu works
+
+2006-04-05 20:53  zeev
+
+	* src/: globaldocs/MainFrame.java, tests/a.java: bugfixes
+
+2006-04-05 21:11  zeev
+
+	* changelog.txt, readme.txt: 1.8.1
+
+2006-04-05 21:12  zeev
+
+	* changelog.txt: 1.8.1 typo
+
+2006-04-06 23:31  zeev
+
+	* src/globaldocs/: FocusGrabber.java, MainFrame.java,
+	  TheCookieHandler.java: FocusGrabber
+
+2006-04-10 15:21  zeev
+
+	* src/globaldocs/: FocusGrabber.java, MainFrame.java,
+	  TheCookieHandler.java, res/properties.properties: initial version
+	  of the cookie support works
+
+2006-04-10 22:23  zeev
+
+	* src/globaldocs/: MainFrame.java, TheCookieHandler.java: initial
+	  support of SSL works
+
+2006-04-11 18:07  zeev
+
+	* src/globaldocs/MainFrame.java: The information about the
+	  CiferSuite is provided to the user
+
+2006-04-11 18:58  zeev
+
+	* src/globaldocs/: DocsetEditor_Dialog.form,
+	  DocsetEditor_Dialog.java, FocusGrabber.java,
+	  SearchMaskJPanel.java: FocusGrabber was added to sime input
+	  fields
+
+2006-04-12 22:22  zeev
+
+	* src/globaldocs/MainFrame.java: Frame menu should show  the
+	  CiferSuite (not tested)
+
+2006-04-13 00:20  zeev
+
+	* src/globaldocs/MainFrame.java: Frane oriented search
+
+2006-04-14 00:13  zeev
+
+	* changelog.txt, src/globaldocs/res/help.html: 1.8.2
+
+2006-04-16 13:35  zeev
+
+	* src/globaldocs/: MainFrame.java, Utils.java,
+	  protocols/about/Handler.java, res/about_frame.html,
+	  res/properties.properties: "about" protocol
+
+2006-04-16 17:16  zeev
+
+	* src/globaldocs/: LicDialog.form, LicDialog.java, MainFrame.java:
+	  The License Check was added
+
+2006-04-16 18:41  zeev
+
+	* src/globaldocs/: MainFrame.java, Utils.java: The start arguments
+	  handling was added
+
+2006-04-16 22:20  zeev
+
+	* src/globaldocs/GlobalJavadocViewer.java,
+	  build-before-management.xml, build.xml,
+	  nbproject/genfiles.properties,
+	  nbproject/management-build-impl.xml, nbproject/project.xml,
+	  src/globaldocs/GlobalJavadocViewerMBean.java,
+	  src/globaldocs/MainFrame.java, src/globaldocs/Utils.java: JMX
+	  remote control was added
+
+2006-04-19 16:43  zeev
+
+	* changelog.txt, src/globaldocs/MainFrame.java: refactoring
+
+2006-04-20 23:23  zeev
+
+	* src/globaldocs/MainFrame.java: parsing of overview-tree.html and
+	  the  inner classes was added
+
+2006-04-26 16:04  zeev
+
+	* changelog.txt, src/globaldocs/GlobalJavadocViewer.java,
+	  src/globaldocs/GlobalJavadocViewerMBean.java,
+	  src/globaldocs/MainFrame.java, src/globaldocs/RemoteControl.java,
+	  src/globaldocs/RemoteControlMBean.java,
+	  src/globaldocs/Utils.java,
+	  src/globaldocs/protocols/about/Handler.java,
+	  src/globaldocs/res/about_frame.html,
+	  src/globaldocs/res/properties.properties: the respawn bug was
+	  fixed
+
+2006-04-26 23:21  zeev
+
+	* src/globaldocs/: MainFrame.java, RemoteControl.java,
+	  RemoteControlMBean.java, Utils.java: appInstanceId JMX property
+	  works
+
+2006-04-28 19:09  zeev
+
+	* src/globaldocs/: DocsetEditor_Dialog.java,
+	  DocsetListEditorPanel.java, FocusGrabber.java, Home.java,
+	  LicDialog.java, MacroProcessor.java, MainFrame.java,
+	  Options_Dialog.java, PagePreprocessor.java,
+	  PagePreprocessorParser.java, PasswordAuthenticationDialog.java,
+	  RemoteControl.java, RemoteControlMBean.java,
+	  SearchMaskJPanel.java, SelectZippedDocset_Dialog.java,
+	  SetMasterPassword_Dialog.java, TheAuthenticator.java,
+	  TheCookieHandler.java, Utils.java, Visitor.java, Wallet.java,
+	  protocols/about/Handler.java, res/about_frame.html,
+	  res/license.html: the license text was fixed
+
+2006-04-28 20:36  zeev
+
+	* changelog.txt, src/globaldocs/LicDialog.form,
+	  src/globaldocs/LicDialog.java: 1.8.5
+
+2006-05-03 11:41  zeev
+
+	* src/globaldocs/: MainFrame.java, Utils.java,
+	  res/properties.properties: initial image URL's support was added
+
+2006-05-03 15:40  zeev
+
+	* src/globaldocs/MainFrame.java: image URL's support development
+
+2006-05-04 23:50  zeev
+
+	* src/globaldocs/MainFrame.java: code cleanup
+
+2006-05-08 21:55  zeev
+
+	* src/globaldocs/MainFrame.java: New  page zeem works (but still
+	  need some improvements)
+
+2006-05-09 02:15  zeev
+
+	* src/globaldocs/MainFrame.java: page scaler improvement
+
+2006-05-11 00:04  zeev
+
+	* src/globaldocs/MainFrame.java: page zoom development
+
+2006-05-18 11:39  zeev
+
+	* src/globaldocs/MainFrame.java: external application handling was
+	  rewritten
+
+2006-05-18 23:50  zeev
+
+	* src/globaldocs/: MainFrame.java, Utils.java: mswin applications
+	  support
+
+2006-05-30 00:48  zeev
+
+	* src/globaldocs/: MainFrame.java, SearchMaskJPanel.form,
+	  SearchMaskJPanel.java, Utils.java: SearchMaskJPanel fixes
+
+2006-05-30 01:26  zeev
+
+	* changelog.txt: 1.8.6
+
+2006-05-31 20:39  zeev
+
+	* nbproject/localarguments.properties, build.xml,
+	  nbproject/executionprofile-impl.xml,
+	  src/globaldocs/MainFrame.java, src/globaldocs/RemoteControl.java,
+	  src/globaldocs/RemoteControlMBean.java,
+	  src/globaldocs/res/properties.properties: first version with RMI
+	  works
+
+2006-06-10 21:37  zeev
+
+	* src/globaldocs/: MainFrame.java, RemoteControl.java,
+	  RemoteControlMBean.java, Utils.java, ipc/PrefRPC.java: bugfix
+
+2006-06-11 14:55  zeev
+
+	* src/globaldocs/MainFrame.java: bugfix
+
+2006-06-21 19:08  zeev
+
+	* changelog.txt, src/globaldocs/MainFrame.java,
+	  src/globaldocs/Utils.java, src/globaldocs/ipc/PrefRPC.java,
+	  src/globaldocs/res/properties.properties, src/tests/a.java: first
+	  version of PerfRPC work
+
+2006-06-30 14:58  zeev
+
+	* nbproject/project.properties, src/globaldocs/MacroProcessor.java,
+	  src/globaldocs/MainFrame.java, src/globaldocs/RemoteControl.java,
+	  src/globaldocs/RemoteControlMBean.java,
+	  src/globaldocs/Utils.java, src/globaldocs/ipc/PrefRPC.java,
+	  src/globaldocs/res/globaldocs.desktop,
+	  src/globaldocs/res/jpackage.ico,
+	  src/globaldocs/res/properties.properties, src/tests/a.java:
+	  freedesktop install works
+
+2006-07-02 15:00  zeev
+
+	* C/.java, C/Makefile.win, C/cup.ico, C/globaldocs.jar, C/run.cpp,
+	  C/run.dev, C/run.ico, C/run_private.h, C/run_private.rc,
+	  C/run_private.res, src/globaldocs/MainFrame.java,
+	  src/globaldocs/Utils.java: windows instller works
+
+2006-07-04 12:53  zeev
+
+	* nbproject/project.properties, src/globaldocs/MainFrame.java,
+	  src/globaldocs/Utils.java, src/globaldocs/ipc/FileRPC.java,
+	  src/globaldocs/ipc/PrefRPC.java,
+	  src/globaldocs/res/globaldocs.desktop: first version of the
+	  FileRPC works
+
+2006-07-04 13:11  zeev
+
+	* C/run.cpp, src/globaldocs/ipc/PrefRPC.java: PerfRPC has been
+	  removed
+
+2006-07-04 18:31  zeev
+
+	* src/globaldocs/: Utils.java, ipc/FileRPC.java,
+	  res/globaldocs.desktop: OverlappingFileLockException problem was
+	  fixed
+
+2006-07-04 18:57  zeev
+
+	* changelog.txt, readme.txt, src/globaldocs/res/help.html: 1.8.7
+
+2006-07-07 19:08  zeev
+
+	* 1.4/103.page, 1.4/Strings.html, 1.4/ban.txt, 1.4/globaldocs.jar,
+	  1.4/globaldocs.jar.sig, 1.4/globaldocs.jnlp,
+	  1.4/globaldocs_1.8.0a.jar, 1.4/globaldocs_1.8.1.jar,
+	  1.4/globaldocs_1.8.1.jar.sig, 1.4/globaldocs_1.8.2.jar,
+	  1.4/globaldocs_1.8.2.jar.sig, 1.4/globaldocs_1.8.5.jar,
+	  1.4/globaldocs_1.8.5.jar.sig, 1.4/globaldocs_1.8.6.jar,
+	  1.4/globaldocs_1.8.6.jar.sig, 1.4/globaldocs_1.8.6a.jar,
+	  1.4/globaldocs_1.8.6a.jar.sig, 1.4/globaldocs_1.8.7.jar,
+	  1.4/globaldocs_1.8.7.jar.sig, 1.4/roots.zip, 1.4/shot-large.jpg,
+	  1.4/shot.jpg, 1.4/win.jnlp, 1.4/ws, C/run.cpp, C/run_private.res,
+	  images/05wsonws_125x125.gif, images/C24logo.gif, images/CERN.gif,
+	  images/CERN_Diagram.gif, src/globaldocs/MainFrame.java,
+	  src/globaldocs/res/properties.properties: The parsing improvemnts
+	  (for Netbeans API set)
+
+2006-07-09 20:33  zeev
+
+	* src/globaldocs/: MainFrame.java, PagePreprocessor.java,
+	  PagePreprocessorParser.java: workaround to the ChangeContentType
+	  exception
+
+2006-07-10 21:35  zeev
+
+	* src/globaldocs/: MainFrame.java, res/config.xml: the dataset list
+	  updater was improved
+
+2006-07-10 23:21  zeev
+
+	* src/globaldocs/: DocsetListEditorPanel.form,
+	  DocsetListEditorPanel.java, MainFrame.java: 1.8.8rc
+
+2006-07-14 22:07  zeev
+
+	* changelog.txt, src/globaldocs/JPanel_Bookmarks.form,
+	  src/globaldocs/JPanel_Bookmarks.java,
+	  src/globaldocs/MainFrame.form, src/globaldocs/MainFrame.java,
+	  src/globaldocs/Utils.java,
+	  src/globaldocs/io/ChannelInputStream.java,
+	  src/globaldocs/res/bookmarks.xml,
+	  src/globaldocs/res/properties.properties,
+	  src/globaldocs/res/win-explorer-folder.gif,
+	  src/globaldocs/res/xbel.dtd: bookmarks development
+
+2006-07-20 20:48  zeev
+
+	* src/: globaldocs/JPanel_Bookmarks.form,
+	  globaldocs/JPanel_Bookmarks.java, globaldocs/MainFrame.java,
+	  tests/a.java: Bookmark pane  development
+
+2006-08-03 23:10  zeev
+
+	* src/globaldocs/JPanel_Bookmarks.java: bookmarks pane devlopment
+	  (folders)
+
+2006-08-05 14:00  zeev
+
+	* src/globaldocs/: JPanel_Bookmarks.java, MainFrame.java: bookmark
+	  add works
+
+2006-08-05 18:43  zeev
+
+	* src/globaldocs/: JPanel_Bookmarks.java, MainFrame.java: a local
+	  docset existence bugfix
+
+2006-08-06 16:30  zeev
+
+	* src/globaldocs/: Utils.java, JPanel_Bookmarks.form,
+	  JPanel_Bookmarks.java, io/ChannelInputStream.java,
+	  io/ChannelOutputStream.java: first  version of the bookmark save
+	  works
+
+2006-08-30 19:16  zeev
+
+	* src/globaldocs/: JPanel_Bookmarks.java,
+	  io/ChannelInputStream.java: bookmark pane developmet (visibility
+	  works)
+
+2006-09-03 18:32  zeev
+
+	* src/globaldocs/: JPanel_Bookmarks.java, MainFrame.java,
+	  Utils.java: first version of the bookmark filter works
+
+2006-09-03 19:04  zeev
+
+	* src/globaldocs/: JPanel_Bookmarks.java, SearchMaskJPanel.java:
+	  refactoring
+
+2006-09-03 19:36  zeev
+
+	* src/globaldocs/: JPanel_Bookmarks.java, Refresher.java: Refresher
+	  class was added and used in the Bookmarks pane
+
+2006-09-03 20:00  zeev
+
+	* src/globaldocs/MainFrame.java: The classlist search has been
+	  changed to use the Refresher
+
+2006-09-03 20:21  zeev
+
+	* src/globaldocs/res/: about_frame.html, bookmarks.xml,
+	  properties.properties: predefined bookmarks and the home page
+	  changes
+
+2006-09-04 13:47  zeev
+
+	* src/globaldocs/: JDialog_BookmarkRename.form,
+	  JPanel_Bookmarks.java, JDialog_BookmarkRename.java,
+	  JPanel_Bookmarks.form: URL drag works
+
+2006-09-04 15:48  zeev
+
+	* src/globaldocs/: JDialog_BookmarkRename.form,
+	  JDialog_BookmarkRename.java, JPanel_Bookmarks.form,
+	  JPanel_Bookmarks.java, MainFrame.form, MainFrame.java: Bookmark
+	  rename works
+
+2006-09-04 17:21  zeev
+
+	* src/globaldocs/: JDialog_BookmarkRename.form,
+	  JDialog_BookmarkRename.java, JPanel_Bookmarks.java: Bookmark
+	  rename dialog improvement
+
+2006-09-04 17:50  zeev
+
+	* src/globaldocs/: JPanel_Bookmarks.form, JPanel_Bookmarks.java:
+	  refactoring -- Bookmarks.TheTree
+
+2006-09-05 22:01  zeev
+
+	* src/globaldocs/: JPanel_Bookmarks.form, JPanel_Bookmarks.java:
+	  bookmark D&D works
+
+2006-09-05 22:06  zeev
+
+	* src/globaldocs/JPanel_Bookmarks.java: bookmark D&D works (fix)
+
+2006-09-06 02:48  zeev
+
+	* src/globaldocs/JPanel_Bookmarks.java: the drop from the system to
+	  the Bookmakrs works
+
+2006-09-06 22:34  zeev
+
+	* src/globaldocs/JPanel_Bookmarks.java: bugfix
+
+2006-09-06 23:03  zeev
+
+	* src/globaldocs/res/help.html: help on the bookmarks was added
+
+2006-09-07 09:02  zeev
+
+	* src/globaldocs/JPanel_Bookmarks.java: 1. Bookmark D&D with active
+	  filter bug was fixed.  2 Other fixes
+
+2006-09-07 16:32  zeev
+
+	* src/globaldocs/: JPanel_Bookmarks.java, MainFrame.java,
+	  SearchMaskJPanel.java: bookmark behaviour improvement
+
+2006-09-08 20:49  zeev
+
+	* changelog.txt, src/globaldocs/JPanel_Bookmarks.java: 1.9.0
+
+2006-09-12 15:09  zeev
+
+	* 1.4/globaldocs.jar, 1.4/globaldocs_1.8.8.jar.sig,
+	  1.4/globaldocs_1.8.0a.jar, 1.4/globaldocs_1.8.5.jar.sig,
+	  1.4/globaldocs_1.8.2.jar, 1.4/globaldocs_1.8.6.jar,
+	  1.4/globaldocs_1.8.6a.jar.sig, 1.4/globaldocs_1.8.8.jar,
+	  1.4/globaldocs_1.9.0.jar.sig, 1.4/globaldocs_1.8.1.jar,
+	  1.4/globaldocs_1.8.1.jar.sig, 1.4/globaldocs_1.8.2.jar.sig,
+	  1.4/globaldocs_1.9.0.jar, 1.4/globaldocs_1.8.5.jar,
+	  1.4/globaldocs_1.8.6.jar.sig, 1.4/globaldocs_1.8.6a.jar,
+	  src/globaldocs/DataFlavors.java,
+	  src/globaldocs/JPanel_Bookmarks.java,
+	  src/globaldocs/MainFrame.java, src/globaldocs/Visitor.java,
+	  src/globaldocs/res/properties.properties,
+	  src/globaldocs/res/xbel.dtd: URL drop to the bookmark pane
+	  improvement
+
+2006-09-12 15:58  zeev
+
+	* src/globaldocs/MainFrame.java: drop to the viewer pane works
+	  (need some improvements)
+
+2006-09-12 19:21  zeev
+
+	* src/globaldocs/: JPanel_Bookmarks.java, MainFrame.java: d&d
+	  bugfixes and improvements
+
+2006-09-12 20:10  zeev
+
+	* src/globaldocs/MainFrame.java: selected text drag support was
+	  added
+
+2006-09-13 09:18  zeev
+
+	* changelog.txt, src/globaldocs/JPanel_Bookmarks.java,
+	  src/globaldocs/MainFrame.java: commit
+
+2006-09-17 22:44  zeev
+
+	* src/globaldocs/: res/properties.properties, KeyStrokeAction.java,
+	  MainFrame.java, KeyStrokesActions.java: A woraround to the
+	  JEditorPane scroll bag was added
+
+2006-09-18 09:18  zeev
+
+	* src/globaldocs/: MainFrame.java, KeyStrokesActions.java: imp
+
+2006-09-27 03:07  zeev
+
+	* src/globaldocs/MainFrame.java: initial version of POST works
+
+2006-09-27 18:44  zeev
+
+	* src/: globaldocs/MainFrame.java, tests/a.java: POST probably
+	  works OK
+
+2006-09-27 19:14  zeev
+
+	* src/globaldocs/MainFrame.java: GrabFocus added to the html form
+	  text controls
+
+2006-10-09 17:27  zeev
+
+	* src/: globaldocs/MainFrame.java, globaldocs/Utils.java,
+	  tests/a.java: new navigation backend development
+
+2006-12-23 22:33  zeev
+
+	* manifest.mf, src/tests/B.java, src/tests/a.java,
+	  nbproject/project.properties, src/globaldocs/MainFrame.java,
+	  src/globaldocs/Interceptor.java, src/globaldocs/res/config.xml,
+	  src/globaldocs/res/help.html: 1. docset configuration marge
+	  bugfix.  2. Help fixes before JDK6 release
+
+2006-12-25 22:59  zeev
+
+	* nbproject/project.properties, src/globaldocs/Cancelable.java,
+	  src/globaldocs/MainFrame.java,
+	  src/globaldocs/protocols/http/Handler.java: 1. It seems to me
+	  that the "stop" began to work.  2. Adoptation to the new
+	  Jpackage site design.
+
+2006-12-27 20:59  zeev
+
+	* src/globaldocs/: Interceptor.java, protocols/http/Handler.java,
+	  protocols/https/Handler.java: Interceptor -- removed Https
+	  handler -- added
+
+2006-12-27 21:08  zeev
+
+	* src/globaldocs/res/run.exe: [no log message]
+
+2006-12-27 21:10  zeev
+
+	* C/run.cpp: quotes was added
+

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : config.xml
+    Created on : January 11, 2006, 9:56 PM
+    Author     : zeev
+    Description:
+        Purpose of the document follows.
+-->
+
+<root>
+     <source>
+
+          <docset project="j2ee" ver="5" base="http://java.sun.com/javaee/5/docs/api/"
+                home="http://java.sun.com/javaee/reference/">
+         
+               <replaces>
+                 <docset project="j2ee" ver="1.4.0" base="http://java.sun.com/j2ee/1.4/docs/api/"
+                  home="http://java.sun.com/j2ee/1.4/docs/"/>
+               </replaces>
+          </docset>
+             
+          <docset project="j2se" ver="6" base="http://java.sun.com/javase/6/docs/api/"
+                          home="http://java.sun.com/javase/reference/" j2se="yes"
+          >
+             <replaces>
+          <docset project="j2se" ver="6-beta" base="http://download.java.net/jdk6/docs/api/"
+                          home="http://download.java.net/jdk6/docs/" j2se="yes"/>
+           <docset project="j2se" ver="1.5.0" base="http://java.sun.com/j2se/1.5.0/docs/api/"
+                              home="http://java.sun.com/j2se/1.5.0/docs/"/>              
+             </replaces>
+          </docset>
+          
+          <docset project="j2se" ver="1.5.0" base="http://java.sun.com/j2se/1.5.0/docs/api/"
+                              home="http://java.sun.com/j2se/1.5.0/docs/" disable="yes" j2se="yes"/>              
+          
+          <docset project="jnlp" ver="1.5.0" base="http://java.sun.com/j2se/1.5.0/docs/guide/javaws/jnlp/"
+                home="http://java.sun.com/j2se/1.5.0/docs/guide/javaws/"/>
+                
+                
+          
+          <docset project="jini" ver="2.1" base="http://java.sun.com/products/jini/2.1/doc/api/"
+                home="http://www.jini.org/standards/"/>
+          
+          <docset project="Hibernate" ver="3.1" base="http://www.hibernate.org/hib_docs/v3/api/" 
+               home="http://www.hibernate.org/hib_docs/v3/reference/en/html/"/>
+                 
+          <docset project="jboss AS" ver="4.0.2" base="http://docs.jboss.com/jbossas/javadoc/4.0.2/" 
+               home="http://www.jboss.com/products/jbossas/docs"/>
+                 
+          <docset project="JSF" ver="1.1_01" base="http://java.sun.com/j2ee/javaserverfaces/1.1_01/docs/api/" 
+               home="http://java.sun.com/j2ee/javaserverfaces/"/> 
+               
+          <docset base="http://globaldocs.zeevbelkin.com/javadoc/get.php/hibernate3/3.0.5/" 
+                  home="http://www.hibernate.org/hib_docs/v3/reference/en/html/" project="Hibernate" ver="3.0.5"/>
+
+          <docset base="http://globaldocs.zeevbelkin.com/javadoc/get.php/hibernate/2.1.6/" home="http://www.hibernate.org/hib_docs/reference/en/html/" project="Hibernate" ver="2.1.6">
+             <replaces>
+                <docset project="Hibernate" ver="2.1.4" base="http://www.jdocs.org/hibernate/2.1.4/api/" 
+                  home="http://www.hibernate.org/hib_docs/reference/en/html/" 
+                /> 
+             </replaces>
+          </docset>   
+              
+          <docset base="http://developer.apple.com/documentation/Java/Reference/1.5.0/appledoc/api/" 
+               managed="yes" project="apple java extensions" ver="1.5.0"/>
+               
+         <docset base="http://www.netbeans.org/download/dev/javadoc/" j2se="no" managed="yes" project="netbeans  API" ver="5.x"/>
+         <docset base="http://java.sun.com/products/jmi/jmi-1_0-fr-doc/" disable="no" j2se="no" managed="yes" project="JMI" ver="1.0"/>
+         
+     </source>
+</root>

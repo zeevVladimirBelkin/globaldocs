@@ -1,0 +1,17 @@
+<!--
+    Document   : bookmarks.xml
+    Created on : July 13, 2006, 7:10 PM
+    Author     : zeev
+    Description:
+        Purpose of the document follows.
+-->
+
+<root>
+<link href="http://home.tiscali.nl/~bmc88/java/sbook/" title="Scratchbook for Java Development Kit"/>
+<folder title="Javadoc">
+<link href="http://en.wikipedia.org/wiki/Javadoc" title="Javadoc - Wikipedia, the free encyclopedia"/>
+<link href="http://getahead.ltd.uk/doctree/" title="Big JavaDoc index"/>
+<link href="http://java.sun.com/j2se/javadoc/" title="Javadoc Tool Home Page"/>
+<link href="http://www.javadoconline.com/" title="javadoc online"/>
+</folder>
+</root>

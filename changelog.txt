@@ -1,0 +1,201 @@
+The Globaldocs ChangeLog
+
+06-Jan-2007
+Version 1.9.4
+
+ -- a problem with JDK6 JNLP webstart was fixed.
+
+28-Dec-2006
+Version 1.9.3
+
+  -- fixes for JDK6 support.
+  -- a bug was fixed in the helper application that runs the viewer
+     in the windows environment.
+  -- fixes to support new jpackage.org site design.
+  -- HTTP sumbit method is supported now.
+  -- Text input controls, on the page, grab focus now.
+  -- Some other changes and bugfixes.
+
+
+13-Sep-2006
+Version 1.9.1
+  -- A drag & drop bug was fixed.
+  -- drag & drop support was added to the viewer content pane
+
+08-Sep-2006
+Version 1.9.0
+  -- Bookmark pane was added.
+  -- Some bugs were fixed.
+
+11-Jul-2006
+Version 1.8.8
+  -- An improvement in the docset index parser was made
+  (it works right with http://www.netbeans.org/download/dev/javadoc/ now).
+  -- Bugs in the docset list editor were fixed.
+  -- Docset list updater improvement was made.
+
+04-Jul-2006
+Version 1.8.7
+
+  -- Freedesktop integration (KDE&Gnome).
+  -- Integration with MS Windows desktop.
+  -- FileRPC mechanism to pass the command line (and other info)
+  from one the viewer JVM to another one on the same display.
+
+13-Jun-2006
+Version 1.8.6a
+
+  -- Some serious bugs were fixed
+
+30-May-2006
+Version 1.8.6
+
+  -- Better external applications support (firefox in windows)
+  -- Page zoom improvement
+  -- Some bugs were fixed
+  -- Image URL's support
+
+28-Apr-2006
+Version 1.8.5
+
+  -- The local classes are fully supported since this version.
+  -- The start URL may be passed to the viewer in the command line.
+  -- The JMX-interface that allows to control the viewer was added.
+  -- "about:" protocol was implemented.
+  -- The license dialog was added.
+  -- Some bugs were fixed.
+
+14-Apr-2006
+Version 1.8.2
+
+  -- Basic cookie support.
+  -- Basic SSL support.
+  -- Search in the frames.
+  -- Basic Form submit support.
+
+05-Apr-2006
+Version 1.8.1
+
+ -- The member navigation menu was added.
+ -- Some frame handling improvements were made.
+
+
+30-Mar-2006
+Version 1.8.0a
+
+ -- a critical docset management  bug was fixed 
+
+28-Mar-2006
+Version 1.8.0
+
+  -- Full support of the JAR/ZIP-archives those contain several
+   docsets per archive was implemented.
+  -- Ability to user several user specified J2SE docsets
+   was added.
+  -- Number of small improvements were made.
+
+23-Mar-2006
+Version 1.7.1
+  
+  -- HTTP Proxy support.
+  -- HTTP authentication support, including the proxy authentication (also a wallet to store the auth info was added).
+  -- Various small improvements.
+
+13-Mar-2006
+Version 1.7
+
+ -- Yet another way to add a new docset to the configuration was added:
+  Open a new docset in the viewer window (all the frames should be
+  visible in the window) and then click the green plus button.
+
+ -- Bugfixes an code cleanup.
+
+
+09-Mar-2006
+Version 1.6.99a
+
+  Two serious bugs in the inner classes handling 
+were fixed.
+
+09-Mar-2006
+Version 1.6.99
+-- New docset adding improvement.
+-- The history subsystem handles the frames properly
+now.
+-- Navigation ComboBox атов вместе взятые.
+Вечером 10 марта MRO достиг своей цели и точно вышел на вытянутую эллиптическую орбиту вокруг Марса. Во время выполнения манёвра машина 20 минут находилась за планетой и не могла связываться с Землёй. Когда после этого молчания был получен сигнал от MRO, команда миссии в Лаборатории реактивного движения (JPL) взорвалась аплодисментами.
+В течение следующих 6 месяцев, впрочем, MRO предстоит выполнить не менее ответственный манёвр: за счёт прецизионного тормwas added.
+
+03-Mar-2006
+Version 1.6.2
+-- The remote docset indexes are cached locally now.
+-- The searchable classes index improvement.
+
+
+26-Feb-2006
+Version 1.6.1
+-- the html-resources preprocessor was added.
+
+26-Feb-2006
+Version 1.6
+
+-- The docset list GUI editor (packed to JAR/ZIP docsets also are supported).
+-- Available upgrade notification.
+-- The browser has its own ID now.
+-- Number of bugfixes.
+
+
+06-Feb-2006
+Version 1.5
+
+ -- Searchable Global Index Of Classes.
+ -- Page Zoom.
+ -- Reload the page button.
+ -- Many other changes under the hood.
+  
+
+22-Jan-2006
+Version 1.4.6
+
+ -- ability to open the page/link in an external browser or to copy the
+    it's URL to  clipboard.
+ -- splash screen with the parsing progress info (including the errors).
+
+12-Jan-2006
+Version 1.4.5
+ 
+-- configuration via the configuration file.
+-- help page
+-- BackSpace returns to the prev. page
+
+10-Jan-2006
+Version 1.4
+-- navigation improvements (including fast navigation menu)
+-- a bug in the recognition of the interfaces was fixed
+-- ability to jump to the project home page using  info extracted from the jpackage site
+  (for the packages installed from jpackage repository only)
+-- F3 -- "search again"
+-- look improvement
+-- code cleanup
+
+05-Jan-2006
+Version 1.3.1
+  Url navigation bug was fixed.
+
+
+Version 1.3
+04-Jan-2006
+  -- Search on the page <ctr+f>
+  -- Spinning globe stop button  to abort the page
+     download process.
+  -- Contextual none API help ("project home button")
+  -- Contextual JPackage page button (if the javadoc set is installed to "/usr/share/javadoc").
+  -- The navigation improvements ("up" button, etc.)
+  -- URL rewriter that updates the URL's those point
+    to the j2se versions prior the 1.5 jadadoc sets to point
+    to the standard j2se 1.5 javadoc set.
+  -- the memory usage was reduced.
+  -- some bugfixes
+
+Version 1.2
+Version 1.1 

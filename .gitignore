@@ -1,0 +1,45 @@
+# Build products and downloaded dependencies
+/build/
+/dist/
+/web/dist/
+*.class
+*.jar
+*.war
+*.exe
+*.dll
+*.o
+*.obj
+*.res
+
+# Private IDE state, runtime profiles, signing material, and credentials
+/nbproject/private/
+/nbproject/localarguments.properties
+/.globaldocs/
+/C/.java
+/1.4/
+myKeystore*
+*.keystore
+*.jks
+*.p12
+*.pfx
+*.key
+*.pem
+*.cer
+*.crt
+*.der
+.env
+.env.*
+
+# CVS administrative data and editor/OS leftovers
+CVS/
+CVSROOT/
+.cvsignore
+.nbintdb
+*~
+*.bak
+*.orig
+*.rej
+.#*
+\#*\#
+.DS_Store
+Thumbs.db
